@@ -1,0 +1,45 @@
+# =============================================================================
+# SMUTNY PAN — JEKYLL CONFIG
+# =============================================================================
+# Tutaj ustawiasz podstawowe informacje o stronie.
+# Po zmianie: zrestartuj Jekylla (Ctrl+C, potem jekyll serve)
+# =============================================================================
+
+title: "Smutny Pan — piosenki z rysunkami"
+description: >
+  Smutny Pan — polska muzyka niezależna z Krakowa.
+  Piosenki po polsku i ręcznie rysowane animacje klatka po klatce.
+url: "https://smutnypan.pl"
+baseurl: ""
+
+# Autor / wykonawca
+author:
+  name: "Smutny Pan"
+  email: ""
+  instagram: "smutnypan.art"
+  youtube: "smutny_pan"
+  spotify: "PODMIEN_ID"
+
+# Ustawienia builda
+markdown: kramdown
+permalink: pretty
+
+# Kolekcje (opcjonalnie, na przyszłość)
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:title/
+
+# Wtyczki (GitHub Pages obsługuje tylko wybrane)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      image: "/piotrek.jpg"

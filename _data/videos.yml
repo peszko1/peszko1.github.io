@@ -1,0 +1,39 @@
+# =============================================================================
+# FILMY — TUTAJ DODAJESZ I ZMIENIASZ FILMY
+# =============================================================================
+# Format:
+#   id:           ID YouTube (część po ?v= w adresie)
+#   title:        Tytuł wyświetlany na stronie
+#   caption:      Tekst nad wideo (tylko dla featured)
+#   subcaption:   Tekst pod captionem (tylko dla featured, np. tytuł utworu)
+#   views:        Liczba wyświetleń (tekst, np. "401 wyświetleń")
+#   date:         Kiedy opublikowano (tekst, np. "9 miesięcy temu")
+#
+# Po zmianie: Jekyll automatycznie przebudowuje stronę (jekyll serve)
+# =============================================================================
+
+# GŁÓWNY FILM — wyświetlany w sekcji hero (duży embed)
+featured:
+  id: "7Jm0tuHQAoc"
+  title: "Rozmowa z przyjacielem (Całkiem sam)"
+  caption: "\"Czasem warto porozmawiać o trudnych rzeczach. O śmierci.\""
+  subcaption: "Rozmowa z przyjacielem (Całkiem sam)"
+
+# INNE / WCZEŚNIEJSZE FILMY — wyświetlane w siatce poniżej
+# Kolejność: tak jak tutaj — od góry do dołu
+others:
+  - id: "OefQWIwdDgI"
+    title: "Smutny Pan"
+    views: "401 wyświetleń"
+    date: "9 miesięcy temu"
+
+  - id: "P2b_u2L2oN0"
+    title: "Przerwa w dostawie czasu"
+    views: "210 wyświetleń"
+    date: "7 miesięcy temu"
+
+# Dodaj kolejne filmy w tym samym formacie:
+#   - id: "TWOJE_ID"
+#     title: "Tytuł filmu"
+#     views: "liczba wyświetleń"
+#     date: "kiedy"
